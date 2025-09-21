@@ -38,7 +38,7 @@ function App() {
           />
         </div>
 
-        <div className="">
+        <div className="z-1">
           <Nav />
           <Routes>
             <Route path="/" element={<Home />} />
