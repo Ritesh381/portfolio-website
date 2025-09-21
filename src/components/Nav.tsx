@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { Download } from 'lucide-react';
+import resume from "../assets/RESUME.pdf";
 
 function Nav() {
   const commonLinkClasses =
@@ -12,7 +13,7 @@ function Nav() {
       className="
         fixed top-0 left-0 w-full z-50 
         flex justify-between items-center 
-        px-4 py-3 md:px-8 md:py-4  // Responsive padding
+        px-4 py-3 md:px-8 md:py-4
         bg-neutral-900/50 backdrop-blur-lg
         font-doto
       "
@@ -21,7 +22,7 @@ function Nav() {
       <div>
         <NavLink
           to="/"
-          end // 'end' prop ensures this only matches the exact "/" path
+          end
           className={({ isActive }) =>
             `${commonLinkClasses} ${isActive ? activeLinkClasses : ''}`
           }
@@ -48,11 +49,13 @@ function Nav() {
 
       {/* Action Button */}
       <div>
-        <button
+        <a
+          href={resume}
+          download="Ritesh_Resume.pdf" // File name when downloaded
           className="
-            flex items-center gap-2 // Aligns icon and text
-            px-3 py-2 md:px-4 md:py-2 // Responsive padding
-            text-sm md:text-base // Responsive text size
+            flex items-center gap-2
+            px-3 py-2 md:px-4 md:py-2
+            text-sm md:text-base
             bg-blue-600 hover:bg-blue-700 
             text-white font-bold 
             rounded-md 
@@ -61,7 +64,7 @@ function Nav() {
         >
           <Download size={16} />
           Resume
-        </button>
+        </a>
       </div>
     </nav>
   );
