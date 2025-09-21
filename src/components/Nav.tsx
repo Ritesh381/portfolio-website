@@ -1,15 +1,10 @@
-import React from 'react';
-// 1. Import NavLink instead of Link
 import { NavLink } from 'react-router-dom';
-// 2. Import the icon from lucide-react
 import { Download } from 'lucide-react';
 
 function Nav() {
-  // Common classes for all links to avoid repetition
   const commonLinkClasses =
     'text-sm md:text-base text-neutral-200 hover:text-white font-medium mx-4 transition-all duration-300 py-2';
-  
-  // Classes to add ONLY when the link is active
+
   const activeLinkClasses = 'text-white border-b-2 border-blue-500';
 
   return (
@@ -64,7 +59,7 @@ function Nav() {
             transition-colors duration-300
           "
         >
-          <Download size={16} /> {/* Icon */}
+          <Download size={16} />
           Resume
         </button>
       </div>

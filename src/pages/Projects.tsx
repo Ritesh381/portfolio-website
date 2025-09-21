@@ -1,4 +1,3 @@
-import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 import FIARY from "../assets/projectPics/FIARY.png";
 import Notes from "../assets/projectPics/Notes.png";
