@@ -10,7 +10,7 @@ function Contact() {
     { name: "Instagram", icon: <Instagram size={40} color="#E1306C" />, link: "https://www.instagram.com/ritesh_0006r/" },
     { name: "Whatsapp", icon: <FaWhatsapp size={40} color="#25D366" />, link: "https://wa.me/917218548912?text=Hi got your number from RiteshJS" },
     { name: "Mail", icon: <Mail size={40} color="#0078FF" />, link: "mailto:prajapatiritesh381@gmail.com?subject=Hello%20Ritesh&body=Hi%20Ritesh%2C%0A%0AI%20saw%20your%20portfolio..." },
-    { name: "Github", icon: <Github size={40} color="#333" />, link: "https://github.com/Ritesh381" },
+    { name: "Github", icon: <Github size={40} color="#f9f9f9ff" />, link: "https://github.com/Ritesh381" },
     { name: "Youtube", icon: <Youtube size={40} color="#FF0000" />, link: "https://www.youtube.com/@ritesh-pra" },
     { name: "Facebook", icon: <Facebook size={40} color="#1877F2" />, link: "https://www.facebook.com/profile.php?id=100058411183441" },
     { name: "Discord", icon: <FaDiscord size={40} color="#5865F2" />, link: "https://www.discordapp.com/users/795242385000759297" },
