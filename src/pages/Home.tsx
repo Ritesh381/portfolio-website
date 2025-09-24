@@ -21,7 +21,7 @@ function Home() {
         />
         <div className="flex flex-col md:text-2xl md:max-w-200 xl:max-w-600">
           <ScrambledText
-            className="scrambled-text-demo md:text-3xl"
+            className="scrambled-text-demo md:text-2xl"
             radius={100}
             duration={1.2}
             speed={0.5}
