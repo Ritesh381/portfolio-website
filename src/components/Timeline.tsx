@@ -22,7 +22,7 @@ const Timeline: React.FC<TimelineProps> = ({ items }) => {
       <div className="hidden md:block absolute left-6 top-0 bottom-0 w-px bg-gray-700/60" />
 
       <div className="flex flex-col gap-8">
-        {items.map((item, idx) => (
+        {items.map((item) => (
           <div key={item.id} className="flex items-start md:items-stretch md:gap-8">
             {/* Marker column for md+ */}
             <div className="md:w-12 md:flex md:flex-col md:items-center md:justify-start">

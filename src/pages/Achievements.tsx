@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import Timeline, { type TimelineItem } from '../components/Timeline'
 
 // edit this array with real achievements
