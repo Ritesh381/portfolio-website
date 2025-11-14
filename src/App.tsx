@@ -5,6 +5,8 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import { Routes, Route } from "react-router-dom";
 import ClickSpark from "./ui/ClickSpark";
+// import Achievements from "./pages/Achievements";
+import Skills from "./pages/Skills";
 
 function App() {
   return (
@@ -44,6 +46,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+            {/* <Route path="/achievement" element={<Achievements />} /> */}
+            <Route path="/skills" element={<Skills />}/>
           </Routes>
         </div>
       </ClickSpark>

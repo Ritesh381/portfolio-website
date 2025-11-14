@@ -35,8 +35,16 @@ function Nav() {
             `${commonLinkClasses} ${isActive ? activeLinkClasses : ''}`
           }
         >
-          Project
+          Projects
         </NavLink>
+        {/* <NavLink
+          to="/achievement"
+          className={({ isActive }) =>
+            `${commonLinkClasses} ${isActive ? activeLinkClasses : ''}`
+          }
+        >
+          Achievements
+        </NavLink> */}
         <NavLink
           to="/contact"
           className={({ isActive }) =>

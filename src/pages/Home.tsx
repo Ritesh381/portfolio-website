@@ -23,7 +23,7 @@ function Home() {
           onContactClick={() => alert("Contact button clicked!")}
         />
 
-        <div className="flex flex-col max-w-[800px] gap-6 text-center md:text-left">
+        <div className="flex flex-col max-w-[800px] p-5 gap-6 text-center md:text-left">
 
           <ScrambledText
             className="scrambled-text-demo md:text-2xl"

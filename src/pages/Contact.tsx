@@ -1,9 +1,9 @@
 import { Linkedin, Twitter, Instagram, Github, Youtube, Facebook, Mail, Phone, Video } from "lucide-react";
 import { FaWhatsapp, FaDiscord, FaTelegram } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 function Contact() {
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
   const socials = [
     { name: "Linkedin", icon: <Linkedin size={40} color="#0A66C2" />, link: "https://www.linkedin.com/in/ritesh-prajapati-7830582a7/" },
     { name: "Twitter", icon: <Twitter size={40} color="#1DA1F2" />, link: "https://x.com/RITESHP7672351" },
