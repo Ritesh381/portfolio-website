@@ -38,14 +38,14 @@ function Contact() {
       </div>
 
       {/* Action buttons */}
-      <div className="flex flex-wrap justify-center gap-6">
+      {/* <div className="flex flex-wrap justify-center gap-6">
         <button className="bg-white text-black font-semibold px-5 py-2 rounded-full hover:bg-neutral-200 transition-colors">
           Download VCard
         </button>
         <button onClick={()=>navigate("/")} className="bg-white text-black font-semibold px-5 py-2 rounded-full hover:bg-neutral-200 transition-colors">
           Go to Home Page
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }

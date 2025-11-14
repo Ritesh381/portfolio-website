@@ -9,10 +9,17 @@ import RS from "../assets/projectPics/RS.png";
 const projects = [
   {
     name: "FIARY",
-    desc: "FIARY is your personal life dashboard. It unites Journaling, Habits, Tasks, and Finance into one platform, using your data to provide actionable, holistic self-insights.",
+    desc: "FIARY is your personal life dashboard. It unites Journaling, Habits, Tasks, Finance and Books&Movie tacking into one platform, using your data to provide actionable, holistic self-insights.",
     img: FIARY,
     github: "https://github.com/Ritesh381/FIARY",
     demo: "https://fiary.vercel.app",
+  },
+  {
+    name: "Movie Hub",
+    desc: "Surf and explore trending movies, Watch trailers, read about the movie and Chat with Porcorn Piolot an AI ChatBOT which tells you about movies.",
+    img: MovieHub,
+    github: "https://github.com/Ritesh381/Movie-Hub",
+    demo: "https://movie-hub404.vercel.app/",
   },
   {
     name: "AI Powered Notes App",
@@ -20,13 +27,6 @@ const projects = [
     img: Notes,
     github: "https://github.com/Ritesh381/Simple-Notes",
     demo: "https://smpl-notes.vercel.app/",
-  },
-  {
-    name: "Movie Hub",
-    desc: "Surf and explore trending movies, Watch trailers, read about the movie and Chat with Porcorn Piolot an AI ChatBOT which tells you about movies.",
-    img: MovieHub,
-    github: "https://github.com/Ritesh381/Simple-Notes",
-    demo: "https://movie-hub404.vercel.app/",
   },
   {
     name: "School Website",
