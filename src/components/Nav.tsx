@@ -53,14 +53,14 @@ function Nav() {
         >
           Contact
         </NavLink>
-        <NavLink
+        {/* <NavLink
           to="/support"
           className={({ isActive }) =>
             `${commonLinkClasses} ${isActive ? activeLinkClasses : ''}`
           }
         >
           Support
-        </NavLink>
+        </NavLink> */}
       </div>
 
       {/* Action Button */}
