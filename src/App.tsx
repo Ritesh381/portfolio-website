@@ -3,7 +3,7 @@ import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import Support from "./pages/Support";
+// import Support from "./pages/Support";
 import { Routes, Route } from "react-router-dom";
 import ClickSpark from "./ui/ClickSpark";
 // import Achievements from "./pages/Achievements";
