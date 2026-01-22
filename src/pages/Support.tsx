@@ -15,7 +15,7 @@ interface Supporter {
   created_at: string;
 }
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3002";
+const API_URL = import.meta.env.VITE_API_URL || "https://portfolio-website-backend-git-main-ritesh381s-projects.vercel.app";
 
 function Support() {
   const [amount, setAmount] = useState<string>("");
