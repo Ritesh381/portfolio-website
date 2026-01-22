@@ -5,8 +5,16 @@ import MovieHub from "../assets/projectPics/MovieHub.png";
 import School from "../assets/projectPics/School.png";
 import VM from "../assets/projectPics/VM.png";
 import RS from "../assets/projectPics/RS.png";
+import TermLens from "../assets/projectPics/TermLens.png";
 
 const projects = [
+  {
+    name: "TermLens",
+    desc: "Chrome extension that provides instant AI-powered text explanations without leaving your current webpage. It's designed to help users quickly understand unfamiliar terms, phrases, or sentences while reading online.",
+    img: TermLens,
+    github: "",
+    demo: "https://termlens.vercel.app/",
+  },
   {
     name: "FIARY",
     desc: "FIARY is your personal life dashboard. It unites Journaling, Habits, Tasks, Finance and Books&Movie tacking into one platform, using your data to provide actionable, holistic self-insights.",

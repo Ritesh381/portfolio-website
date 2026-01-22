@@ -67,7 +67,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
       {/* Links */}
       <div className="flex justify-center gap-4 w-full mt-auto">
-        <a
+        {githubLink && <a
           href={githubLink}
           target="_blank"
           rel="noopener noreferrer"
@@ -99,7 +99,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             />
           </svg>
           GitHub
-        </a>
+        </a>}
 
         {/* Conditionally render Demo Link */}
         {demoLink && (
