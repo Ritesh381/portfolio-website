@@ -6,13 +6,29 @@ import School from "../assets/projectPics/School.png";
 import VM from "../assets/projectPics/VM.png";
 import RS from "../assets/projectPics/RS.png";
 import TermLens from "../assets/projectPics/TermLens.png";
+import PaperPlayground from "../assets/projectPics/PaperPlayground.png"
+import ScalerPP from "../assets/projectPics/scaler-pp.png"
 
 const projects = [
+  {
+    name: "Scaler++",
+    desc: "Actively used by 100+ students, its a chrome extension I build to improve my college's learning dashboard.",
+    img: ScalerPP,
+    github: "https://github.com/Ritesh381/Scaler-extension/",
+    demo: "https://chromewebstore.google.com/detail/scaler++/fpnleckmeeahiognlpphbadchogfjgcg?authuser=1&hl=en",
+  },
+  {
+    name: "PaperPlayground",
+    desc: "Enhancing the learning experience of students by converting a static pdf/file into an anime based story telling type game.",
+    img: PaperPlayground,
+    github: "https://github.com/Ritesh381/PaperPlayground",
+    demo: "https://paper-playground.vercel.app/",
+  },
   {
     name: "TermLens",
     desc: "Chrome extension that provides instant AI-powered text explanations without leaving your current webpage. It's designed to help users quickly understand unfamiliar terms, phrases, or sentences while reading online.",
     img: TermLens,
-    github: "",
+    github: "https://github.com/Ritesh381/TermLens",
     demo: "https://termlens.vercel.app/",
   },
   {
