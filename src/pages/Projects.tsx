@@ -12,7 +12,7 @@ import ScalerPP from "../assets/projectPics/scaler-pp.png"
 const projects = [
   {
     name: "Scaler++",
-    desc: "Actively used by 100+ students, its a chrome extension I build to improve my college's learning dashboard.",
+    desc: "Actively used by 200+ students, its a chrome extension I build to improve my college's learning dashboard.",
     img: ScalerPP,
     github: "https://github.com/Ritesh381/Scaler-extension/",
     demo: "https://chromewebstore.google.com/detail/scaler++/fpnleckmeeahiognlpphbadchogfjgcg?authuser=1&hl=en",
