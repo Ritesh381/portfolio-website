@@ -8,11 +8,19 @@ import RS from "../assets/projectPics/RS.png";
 import TermLens from "../assets/projectPics/TermLens.png";
 import PaperPlayground from "../assets/projectPics/PaperPlayground.png"
 import ScalerPP from "../assets/projectPics/scaler-pp.png"
+import Aegis from "../assets/projectPics/Aegis.png"
 
 const projects = [
   {
+    name: "ARGIS",
+    img: Aegis,
+    demo:"https://aegis-corporate.vercel.app/",
+    github: "https://github.com/Ritesh381/AEGIS",
+    desc: "AI-Powered Contract Intelligence Platform — Analyze legal documents, uncover hidden risks, and get actionable negotiation guidance.",
+  },
+  {
     name: "Scaler++",
-    desc: "Actively used by 200+ students, its a chrome extension I build to improve my college's learning dashboard.",
+    desc: "Actively used by 3000+ students, its a chrome extension I build to improve my college's learning dashboard.",
     img: ScalerPP,
     github: "https://github.com/Ritesh381/Scaler-extension/",
     demo: "https://chromewebstore.google.com/detail/scaler++/fpnleckmeeahiognlpphbadchogfjgcg?authuser=1&hl=en",
