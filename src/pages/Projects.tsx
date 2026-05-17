@@ -9,15 +9,10 @@ import TermLens from "../assets/projectPics/TermLens.png";
 import PaperPlayground from "../assets/projectPics/PaperPlayground.png"
 import ScalerPP from "../assets/projectPics/scaler-pp.png"
 import Aegis from "../assets/projectPics/Aegis.png"
+import Docmind from "../assets/projectPics/docmind.png"
+import STS from "../assets/projectPics/STS.png"
 
 const projects = [
-  {
-    name: "ARGIS",
-    img: Aegis,
-    demo:"https://aegis-corporate.vercel.app/",
-    github: "https://github.com/Ritesh381/AEGIS",
-    desc: "AI-Powered Contract Intelligence Platform — Analyze legal documents, uncover hidden risks, and get actionable negotiation guidance.",
-  },
   {
     name: "Scaler++",
     desc: "Actively used by 3000+ students, its a chrome extension I build to improve my college's learning dashboard.",
@@ -26,18 +21,25 @@ const projects = [
     demo: "https://chromewebstore.google.com/detail/scaler++/fpnleckmeeahiognlpphbadchogfjgcg?authuser=1&hl=en",
   },
   {
+    name: "AEGIS",
+    img: Aegis,
+    demo:"https://aegis-corporate.vercel.app/",
+    github: "https://github.com/Ritesh381/AEGIS",
+    desc: "AI-Powered Contract Intelligence Platform — Analyze legal documents, uncover hidden risks, and get actionable negotiation guidance.",
+  },
+  {
+    name:"DocMind",
+    img:Docmind,
+    demo:"https://doc-mind-rose.vercel.app/",
+    github:"https://github.com/Ritesh381/DocMind",
+    desc:"DocMind is a production-grade RAG app that answers question on user's docs, using query rewriting, hybrid retrieval, LLM-as-a-Judge, and a corrective loop"
+  },
+  {
     name: "PaperPlayground",
     desc: "Enhancing the learning experience of students by converting a static pdf/file into an anime based story telling type game.",
     img: PaperPlayground,
     github: "https://github.com/Ritesh381/PaperPlayground",
     demo: "https://paper-playground.vercel.app/",
-  },
-  {
-    name: "TermLens",
-    desc: "Chrome extension that provides instant AI-powered text explanations without leaving your current webpage. It's designed to help users quickly understand unfamiliar terms, phrases, or sentences while reading online.",
-    img: TermLens,
-    github: "https://github.com/Ritesh381/TermLens",
-    demo: "https://termlens.vercel.app/",
   },
   {
     name: "FIARY",
@@ -52,6 +54,20 @@ const projects = [
     img: MovieHub,
     github: "https://github.com/Ritesh381/Movie-Hub",
     demo: "https://movie-hub404.vercel.app/",
+  },
+  {
+    name: "TermLens",
+    desc: "Chrome extension that provides instant AI-powered text explanations without leaving your current webpage. It's designed to help users quickly understand unfamiliar terms, phrases, or sentences while reading online.",
+    img: TermLens,
+    github: "https://github.com/Ritesh381/TermLens",
+    demo: "https://termlens.vercel.app/",
+  },
+  {
+    name:"VoiceChatBot",
+    desc:"A spepch to speech chatBot made using MURF AI and LLM. Streamed using Websockets",
+    img: STS,
+    github:"https://github.com/Ritesh381/speech-to-speech-app",
+    demo:"https://speech-to-speech-app-gamma.vercel.app/",
   },
   {
     name: "AI Powered Notes App",
