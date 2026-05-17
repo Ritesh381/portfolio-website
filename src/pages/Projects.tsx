@@ -11,6 +11,7 @@ import ScalerPP from "../assets/projectPics/scaler-pp.png"
 import Aegis from "../assets/projectPics/Aegis.png"
 import Docmind from "../assets/projectPics/docmind.png"
 import STS from "../assets/projectPics/STS.png"
+import KrishiMirta from "../assets/projectPics/KrishiMirta.png"
 
 const projects = [
   {
@@ -63,6 +64,13 @@ const projects = [
     demo: "https://termlens.vercel.app/",
   },
   {
+    name: "Krishi Mitra",
+    desc: "Krishi-Mitra is a comprehensive, AI-powered farming support platform designed to provide small farmers with personalized, timely, and accessible agricultural advice, addressing major causes of yield loss.",
+    github: "https://github.com/Ritesh381/Krishi-mitra",
+    demo: "https://krishi-mitra-two-rho.vercel.app/",
+    img: KrishiMirta,
+  },
+  {
     name:"VoiceChatBot",
     desc:"A spepch to speech chatBot made using MURF AI and LLM. Streamed using Websockets",
     img: STS,
@@ -96,6 +104,13 @@ const projects = [
     img: RS,
     github: "https://github.com/Ritesh381/Random-Stuff",
     demo: "https://random-stuff-01.netlify.app/",
+  },
+  {
+    name: "Voice Controlled Car",
+    desc: "A fun project where I built a voice-controlled car using Arduino and a Bluetooth module. The car can be controlled using voice commands, making it an exciting way to learn about robotics and voice recognition technology.",
+    img: VM,
+    github: "https://github.com/Ritesh381/Voice-Operater-Wheel-Chair",
+    demo: "https://www.youtube.com/watch?v=zSyl6eb3zLo",
   },
 ];
 
