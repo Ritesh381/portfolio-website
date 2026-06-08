@@ -12,6 +12,8 @@ import Aegis from "../assets/projectPics/Aegis.png"
 import Docmind from "../assets/projectPics/docmind.png"
 import STS from "../assets/projectPics/STS.png"
 import KrishiMirta from "../assets/projectPics/KrishiMirta.png"
+import ChemSpace from "../assets/projectPics/ChemSpace.png"
+// import VRmate from "../assets/projectPics/VRmate.png"
 
 const projects = [
   {
@@ -28,6 +30,20 @@ const projects = [
     github: "https://github.com/Ritesh381/AEGIS",
     desc: "AI-Powered Contract Intelligence Platform — Analyze legal documents, uncover hidden risks, and get actionable negotiation guidance.",
   },
+  {
+    name: "ChemSpace",
+    img: ChemSpace,
+    desc:"Spacial chemical space exploration in Apple Vision Pro",
+    demo:"https://www.youtube.com/watch?v=pKz80_G1Y_I",
+    github:"https://github.com/Ritesh381/ChemSpace",
+  },
+  // {
+  //   name: "VR-mate",
+  //   img: VRmate,
+  //   desc:"A Virtual human inside Apple Vision Pro",
+  //   github: "https://github.com/Ritesh381/VR-mate",
+  //   demo: "https://vr-mate.vercel.app/",
+  // },
   {
     name:"DocMind",
     img:Docmind,
